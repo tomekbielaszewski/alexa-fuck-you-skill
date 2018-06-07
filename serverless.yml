@@ -1,0 +1,13 @@
+service: alexa-fuck-you-skill
+
+frameworkVersion: ">=1.4.0 <2.0.0"
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+
+functions:
+  fuckyou:
+    handler: handler.fuckyou
+    events:
+      - alexaSkill: amzn1.ask.skill.6480d52c-c5b3-43a0-9344-1066fbec78df
