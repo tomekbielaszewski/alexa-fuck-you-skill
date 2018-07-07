@@ -22,7 +22,7 @@ module.exports.fuckyou = (event, context, callback) => {
         type: 'PlainText',
         text: swear,
       },
-      shouldEndSession: false,
+      shouldEndSession: true,
     },
   };
 
